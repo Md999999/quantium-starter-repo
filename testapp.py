@@ -3,6 +3,15 @@ import os
 import sys
 from app import app
 
+# Challenges faced and solutions:
+#1. Driver Pathing:  the terminal rejected the --webdriver flag path.
+#I solved this by using os.path.dirname to dynamically add the driver folder
+#to the system path so the testing framework finds it automatically.
+#2. Version Mismatch: Chrome updated requiring the new 'Chrome for Testing' driver.
+#I had to manually locate the correct stable binary to match my local browser.
+#3. Dash Fixture Errors: Trying to manually set the driver attribute caused an AttributeError.
+#I fixed this by letting the dash_duo fixture handle the driver creation.
+
 #This finds the current folder and adds it to the system path
 #so dash_duo can find chromedriver.exe automatically.
 chrome_driver_path = os.path.dirname(os.path.abspath(__file__))
