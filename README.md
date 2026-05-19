@@ -20,4 +20,4 @@ What It Achieved:
 
 85% test coverage – Used pytest to make sure the code is solid and the dashboard stays accurate when I make updates.
 
-Better decisions – Gave stakeholders a repeatable framework they can use again and again to optimize inventory and marketing based on actual data instead of gut feelings.Claude is AI and can make mistakes. Please double-check responses.
+Better decisions – Gave stakeholders a repeatable framework they can use again and again to optimize inventory and marketing based on actual data instead of gut feelings.
